@@ -94,8 +94,33 @@ body {
       gap: 20px;
       justify-content: flex-end;
     }
-    .icon-bar i {
+
+.icon-bar i {
       color: white;
       font-size: 24px;
       cursor: pointer;
-    }
+}
+
+.rankings{
+      display: flex;
+      align-items:top;
+      justify-content: space-around;
+}
+
+.men table tbody tr,
+.women table tbody tr{
+  background:white;
+
+} 
+.men table tbody tr td,
+.women table tbody tr td,
+.men table thead tr td,
+.women table thead tr td
+{
+  padding:15px 70px 15px
+
+}
+.men table tr,
+.women table tr{
+  border:2px solid gray;
+}
